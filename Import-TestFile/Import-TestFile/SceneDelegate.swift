@@ -14,14 +14,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         self.window = window
                 
-        let rootNavigationController = UINavigationController(rootViewController: EmailLoginViewController())
-        
-        self.window?.rootViewController = rootNavigationController
-        self.window?.makeKeyAndVisible()
+//        let rootNavigationController = UINavigationController(rootViewController: EmailLoginViewController())
+//
+//        self.window?.rootViewController = rootNavigationController
+//        self.window?.makeKeyAndVisible()
 
         
-//        let appFlow = AppFlow(window: window)
-//        self.coordinator.coordinate(flow: appFlow, with: AppStepper())
+        let appFlow = AppFlow(window: window)
+        self.coordinator.coordinate(flow: appFlow, with: AppStepper())
         window.makeKeyAndVisible()
     }
 }

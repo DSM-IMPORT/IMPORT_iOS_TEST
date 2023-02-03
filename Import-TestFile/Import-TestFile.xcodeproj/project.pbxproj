@@ -223,8 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				0E708ABA298CEF45007C4418 /* StratViewController.swift */,
-				0E708ABB298CEF45007C4418 /* Auth */,
 				0E708AE3298CF642007C4418 /* EmailLoginViewController.swift */,
+				0E708ABB298CEF45007C4418 /* Auth */,
 			);
 			name = ViewControllers;
 			path = ../../../../IMPORT_iOS/Import/Import/Source/ViewControllers;

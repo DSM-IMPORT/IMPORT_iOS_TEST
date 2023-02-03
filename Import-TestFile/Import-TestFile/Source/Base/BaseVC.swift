@@ -21,12 +21,13 @@ class BaseVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .systemBackground
+        self.attribute()
+        self.touchEvent()
         self.bind()
         self.configure()
-        self.attribute()
         self.view.setNeedsUpdateConstraints()
     }
-    
+    func touchEvent() { }
     func configure() { }
     func bind() { }
     func layout() { }

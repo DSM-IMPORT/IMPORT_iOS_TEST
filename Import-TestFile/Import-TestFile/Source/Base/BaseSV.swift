@@ -66,6 +66,7 @@ class BaseSV: BaseVC, Stepper {
     
     override func viewDidLoad() {
         updateWith(self)
+        print("난 base에 갇쳐있어")
     }
     
     func updateWith(_ controller: UIViewController) {
