@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		0E7089F8298CEC70007C4418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7089F7298CEC70007C4418 /* AppDelegate.swift */; };
 		0E7089FA298CEC70007C4418 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7089F9298CEC70007C4418 /* SceneDelegate.swift */; };
-		0E7089FC298CEC70007C4418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7089FB298CEC70007C4418 /* ViewController.swift */; };
 		0E708A01298CEC71007C4418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E708A00298CEC71007C4418 /* Assets.xcassets */; };
 		0E708A04298CEC71007C4418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E708A02298CEC71007C4418 /* LaunchScreen.storyboard */; };
 		0E708A0F298CEC71007C4418 /* Import_TestFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708A0E298CEC71007C4418 /* Import_TestFileTests.swift */; };
 		0E708A19298CEC71007C4418 /* Import_TestFileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708A18298CEC71007C4418 /* Import_TestFileUITests.swift */; };
 		0E708A1B298CEC71007C4418 /* Import_TestFileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708A1A298CEC71007C4418 /* Import_TestFileUITestsLaunchTests.swift */; };
+		0E708A94298CEEC5007C4418 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708A93298CEEC5007C4418 /* BaseVC.swift */; };
+		0E708AB1298CEF27007C4418 /* IMPORTStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708AB0298CEF27007C4418 /* IMPORTStep.swift */; };
+		0E708AB6298CEF32007C4418 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708AB3298CEF32007C4418 /* LoginFlow.swift */; };
+		0E708AB7298CEF32007C4418 /* HomeFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708AB4298CEF32007C4418 /* HomeFlow.swift */; };
+		0E708AB8298CEF32007C4418 /* SignupFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708AB5298CEF32007C4418 /* SignupFlow.swift */; };
+		0E708ABF298CEF45007C4418 /* StratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708ABA298CEF45007C4418 /* StratViewController.swift */; };
+		0E708AC0298CEF45007C4418 /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708ABC298CEF45007C4418 /* EmailLoginViewController.swift */; };
+		0E708AC1298CEF45007C4418 /* SignUpFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708ABD298CEF45007C4418 /* SignUpFirstViewController.swift */; };
+		0E708ADA298CF08E007C4418 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708AD9298CF08E007C4418 /* UIColor+Extension.swift */; };
+		0E708ADC298CF09D007C4418 /* Step+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708ADB298CF09D007C4418 /* Step+Extension.swift */; };
+		0E708ADE298CF1C7007C4418 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708ADD298CF1C7007C4418 /* AppFlow.swift */; };
+		0E708AE0298CF1FE007C4418 /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E708ADF298CF1FE007C4418 /* AppStepper.swift */; };
 		2E0071C1B6FBEBF42247AAD9 /* Pods_Import_TestFileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB8D3FA1E2B722A594CE924 /* Pods_Import_TestFileTests.framework */; };
 		68A6A469AB462CE36556720F /* Pods_Import_TestFile_Import_TestFileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E60265C15EE5521ED0A53 /* Pods_Import_TestFile_Import_TestFileUITests.framework */; };
 		EF932148A8A0681AE064516F /* Pods_Import_TestFile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCAC0FDD263B64AB1751CA2 /* Pods_Import_TestFile.framework */; };
@@ -41,7 +52,6 @@
 		0E7089F4298CEC70007C4418 /* Import-TestFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Import-TestFile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7089F7298CEC70007C4418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E7089F9298CEC70007C4418 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E7089FB298CEC70007C4418 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0E708A00298CEC71007C4418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E708A03298CEC71007C4418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E708A05298CEC71007C4418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +60,20 @@
 		0E708A14298CEC71007C4418 /* Import-TestFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Import-TestFileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E708A18298CEC71007C4418 /* Import_TestFileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Import_TestFileUITests.swift; sourceTree = "<group>"; };
 		0E708A1A298CEC71007C4418 /* Import_TestFileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Import_TestFileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E708A93298CEEC5007C4418 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		0E708AB0298CEF27007C4418 /* IMPORTStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMPORTStep.swift; sourceTree = "<group>"; };
+		0E708AB3298CEF32007C4418 /* LoginFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFlow.swift; sourceTree = "<group>"; };
+		0E708AB4298CEF32007C4418 /* HomeFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFlow.swift; sourceTree = "<group>"; };
+		0E708AB5298CEF32007C4418 /* SignupFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupFlow.swift; sourceTree = "<group>"; };
+		0E708ABA298CEF45007C4418 /* StratViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StratViewController.swift; sourceTree = "<group>"; };
+		0E708ABC298CEF45007C4418 /* EmailLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
+		0E708ABD298CEF45007C4418 /* SignUpFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpFirstViewController.swift; sourceTree = "<group>"; };
+		0E708AD6298CEFCF007C4418 /* LoginStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStepper.swift; sourceTree = "<group>"; };
+		0E708AD7298CEFCF007C4418 /* HomeStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStepper.swift; sourceTree = "<group>"; };
+		0E708AD9298CF08E007C4418 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0E708ADB298CF09D007C4418 /* Step+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Step+Extension.swift"; sourceTree = "<group>"; };
+		0E708ADD298CF1C7007C4418 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		0E708ADF298CF1FE007C4418 /* AppStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
 		1F27C5CF7622B8382B0548EB /* Pods-Import-TestFileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Import-TestFileTests.debug.xcconfig"; path = "Target Support Files/Pods-Import-TestFileTests/Pods-Import-TestFileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		350E60265C15EE5521ED0A53 /* Pods_Import_TestFile_Import_TestFileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Import_TestFile_Import_TestFileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB8D3FA1E2B722A594CE924 /* Pods_Import_TestFileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Import_TestFileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,10 +140,12 @@
 			children = (
 				0E7089F7298CEC70007C4418 /* AppDelegate.swift */,
 				0E7089F9298CEC70007C4418 /* SceneDelegate.swift */,
-				0E7089FB298CEC70007C4418 /* ViewController.swift */,
+				0E708ADF298CF1FE007C4418 /* AppStepper.swift */,
+				0E708ADD298CF1C7007C4418 /* AppFlow.swift */,
 				0E708A00298CEC71007C4418 /* Assets.xcassets */,
 				0E708A02298CEC71007C4418 /* LaunchScreen.storyboard */,
 				0E708A05298CEC71007C4418 /* Info.plist */,
+				0E708A96298CEED7007C4418 /* Source */,
 			);
 			path = "Import-TestFile";
 			sourceTree = "<group>";
@@ -139,6 +165,92 @@
 				0E708A1A298CEC71007C4418 /* Import_TestFileUITestsLaunchTests.swift */,
 			);
 			path = "Import-TestFileUITests";
+			sourceTree = "<group>";
+		};
+		0E708A95298CEECA007C4418 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0E708A93298CEEC5007C4418 /* BaseVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0E708A96298CEED7007C4418 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0E708AD8298CF07F007C4418 /* Extensions */,
+				0E708A95298CEECA007C4418 /* Base */,
+				0E708AAE298CEF17007C4418 /* Flow */,
+				0E708AB9298CEF45007C4418 /* ViewControllers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0E708AAE298CEF17007C4418 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				0E708AAF298CEF27007C4418 /* Step */,
+				0E708AB2298CEF32007C4418 /* Flows */,
+				0E708AD5298CEFCF007C4418 /* Stepper */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		0E708AAF298CEF27007C4418 /* Step */ = {
+			isa = PBXGroup;
+			children = (
+				0E708AB0298CEF27007C4418 /* IMPORTStep.swift */,
+			);
+			name = Step;
+			path = ../../../../../IMPORT_iOS/Import/Import/Source/Flow/Step;
+			sourceTree = "<group>";
+		};
+		0E708AB2298CEF32007C4418 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				0E708AB3298CEF32007C4418 /* LoginFlow.swift */,
+				0E708AB4298CEF32007C4418 /* HomeFlow.swift */,
+				0E708AB5298CEF32007C4418 /* SignupFlow.swift */,
+			);
+			name = Flows;
+			path = ../../../../../IMPORT_iOS/Import/Import/Source/Flow/Flows;
+			sourceTree = "<group>";
+		};
+		0E708AB9298CEF45007C4418 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E708ABA298CEF45007C4418 /* StratViewController.swift */,
+				0E708ABB298CEF45007C4418 /* Auth */,
+			);
+			name = ViewControllers;
+			path = ../../../../IMPORT_iOS/Import/Import/Source/ViewControllers;
+			sourceTree = "<group>";
+		};
+		0E708ABB298CEF45007C4418 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0E708ABC298CEF45007C4418 /* EmailLoginViewController.swift */,
+				0E708ABD298CEF45007C4418 /* SignUpFirstViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0E708AD5298CEFCF007C4418 /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				0E708AD7298CEFCF007C4418 /* HomeStepper.swift */,
+				0E708AD6298CEFCF007C4418 /* LoginStepper.swift */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		0E708AD8298CF07F007C4418 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E708AD9298CF08E007C4418 /* UIColor+Extension.swift */,
+				0E708ADB298CF09D007C4418 /* Step+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B6D54F0FAE5E7DF4C1B3265A /* Pods */ = {
@@ -402,9 +514,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E7089FC298CEC70007C4418 /* ViewController.swift in Sources */,
+				0E708ADE298CF1C7007C4418 /* AppFlow.swift in Sources */,
+				0E708AB1298CEF27007C4418 /* IMPORTStep.swift in Sources */,
+				0E708AB8298CEF32007C4418 /* SignupFlow.swift in Sources */,
+				0E708AC1298CEF45007C4418 /* SignUpFirstViewController.swift in Sources */,
+				0E708ADC298CF09D007C4418 /* Step+Extension.swift in Sources */,
+				0E708ADA298CF08E007C4418 /* UIColor+Extension.swift in Sources */,
+				0E708ABF298CEF45007C4418 /* StratViewController.swift in Sources */,
+				0E708AB7298CEF32007C4418 /* HomeFlow.swift in Sources */,
+				0E708AC0298CEF45007C4418 /* EmailLoginViewController.swift in Sources */,
 				0E7089F8298CEC70007C4418 /* AppDelegate.swift in Sources */,
 				0E7089FA298CEC70007C4418 /* SceneDelegate.swift in Sources */,
+				0E708AE0298CF1FE007C4418 /* AppStepper.swift in Sources */,
+				0E708A94298CEEC5007C4418 /* BaseVC.swift in Sources */,
+				0E708AB6298CEF32007C4418 /* LoginFlow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

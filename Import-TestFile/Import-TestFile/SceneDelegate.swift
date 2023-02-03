@@ -1,13 +1,7 @@
-//
-//  SceneDelegate.swift
-//  Import-TestFile
-//
-//  Created by 박준하 on 2023/02/03.
-//
-
 import UIKit
 import RxFlow
 import RxSwift
+import RxCocoa
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -19,10 +13,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         self.window = window
-        let rootNavigationController = UINavigationController(rootViewController: ViewController())
-        
-        self.window?.rootViewController = rootNavigationController
-        self.window?.makeKeyAndVisible()
+        let appFlow = AppFlow(window: window)
+        self.coordinator.coordinate(flow: appFlow, with: AppStepper())
+        window.makeKeyAndVisible()
     }
 }
 
